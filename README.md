@@ -93,8 +93,8 @@ Insertion, search, and deletion running time (reversed):
 Document the source of your dataset and any modifications you made to it. Describe the results of your analysis and 
 how it compares to the theoretical performance of the hash table operations.
 
-Dataset Source: // FINISH ME
-Dataset Modifications ("None" if unchanged): // FINISH ME
+Dataset Source: Petalme’s F1 Drivers Dataset on Kaggle (URL: https://www.kaggle.com/datasets/petalme/f1-drivers-dataset)
+Dataset Modifications ("None" if unchanged): Removed unnecessary fields and only kept: Driver, Nationality, Seasons, Championships, Race_Wins, Podiums, Points.
 Result Analysis: // FINISH ME
 
 ## Submission:
