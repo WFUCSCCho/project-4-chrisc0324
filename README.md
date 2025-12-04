@@ -81,21 +81,24 @@ each case. Take a screenshot of your graph and put them here by modifying this f
 it to this repository.
 
 Insertion, search, and deletion running time (already sorted):
-
-![Firefly picture of a cat 86147](https://github.com/user-attachments/assets/8b2d008e-3011-4979-97b8-fa2e9886a01a)
-
+<img width="932" height="577" alt="Screenshot 2025-12-03 at 2 07 58 AM" src="https://github.com/user-attachments/assets/8e08d479-21d1-49fd-a142-8113f38abdda" />
 
 Insertion, search, and deletion running time (shuffled):
+<img width="932" height="577" alt="Screenshot 2025-12-03 at 2 10 36 AM" src="https://github.com/user-attachments/assets/67f9981b-adfd-40f6-9f82-1d641de1564a" />
 
 Insertion, search, and deletion running time (reversed):
+<img width="932" height="577" alt="Screenshot 2025-12-03 at 2 12 10 AM" src="https://github.com/user-attachments/assets/a87e73e6-a238-47a9-a717-e9d59716eae5" />
 
 ## 5. **Document your Dataset and Results**
 Document the source of your dataset and any modifications you made to it. Describe the results of your analysis and 
 how it compares to the theoretical performance of the hash table operations.
 
-Dataset Source: // FINISH ME
-Dataset Modifications ("None" if unchanged): // FINISH ME
-Result Analysis: // FINISH ME
+Dataset Source: Petalme’s F1 Drivers Dataset on Kaggle (URL: https://www.kaggle.com/datasets/petalme/f1-drivers-dataset)
+
+Dataset Modifications ("None" if unchanged): Removed unnecessary fields and only kept: Driver, Nationality, Seasons, Championships, Race_Wins, Podiums, Points.
+
+Result Analysis: The graphs show that the shuffled dataset produced the most stable running times, where the sorted and reversed inputs showed slightly more variation in average time (maybe due to the computer's performance), 
+but still followed the expected performance of a hash table overall. In conclusion, the insertion, search, and deletion operations all had average performance close to O(1), although not perfect with some variations.
 
 ## Submission:
 
