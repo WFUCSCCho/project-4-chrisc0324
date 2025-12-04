@@ -95,7 +95,8 @@ how it compares to the theoretical performance of the hash table operations.
 
 Dataset Source: Petalme’s F1 Drivers Dataset on Kaggle (URL: https://www.kaggle.com/datasets/petalme/f1-drivers-dataset)
 Dataset Modifications ("None" if unchanged): Removed unnecessary fields and only kept: Driver, Nationality, Seasons, Championships, Race_Wins, Podiums, Points.
-Result Analysis: // FINISH ME
+Result Analysis: The graphs show that the shuffled dataset produced the most stable running times, where the sorted and reversed inputs showed slightly more variation in average time (maybe due to the computer's performance), 
+but still followed the expected performance of a hash table overall. In conclusion, the insertion, search, and deletion operations all had average performance close to O(1), although not perfect with some variations.
 
 ## Submission:
 
