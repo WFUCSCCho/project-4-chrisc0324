@@ -14,17 +14,17 @@ public class TestSeparateChainingHashTable {
             H.insert( i );
 
         // Remove the even numbers
-        for( int i = 1; i < NUMS; i+= 2 )
+        for( int i = 2; i < NUMS; i+= 2 )
             H.remove( i );
 
         // Test if the even numbers are still there
         for( int i = 2; i < NUMS; i+=2 )
-            if( !H.contains( i ) )
+            if( H.contains( i ) )
                 System.out.println( "Find fails " + i );
 
         // Test if the odd numbers are still there
         for( int i = 1; i < NUMS; i+=2 ) {
-            if( H.contains( i ) )
+            if( !H.contains( i ) )
                 System.out.println( "OOPS!!! " +  i  );
         }
 
