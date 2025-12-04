@@ -97,7 +97,7 @@ Dataset Source: Petalme’s F1 Drivers Dataset on Kaggle (URL: https://www.kaggl
 
 Dataset Modifications ("None" if unchanged): Removed unnecessary fields and only kept: Driver, Nationality, Seasons, Championships, Race_Wins, Podiums, Points.
 
-Result Analysis: The graphs show that the shuffled dataset produced the most stable running times, where the sorted and reversed inputs showed slightly more variation in average time (maybe due to the computer's performance), 
+Result Analysis: The graphs show that the sorted dataset produced the most stable running times, where the sorted and reversed inputs showed slightly more variation in average time (maybe due to the computer's performance), 
 but still followed the expected performance of a hash table overall. In conclusion, the insertion, search, and deletion operations all had average performance close to O(1), although not perfect with some variations.
 
 ## Submission:
